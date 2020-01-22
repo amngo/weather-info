@@ -1,0 +1,19 @@
+.bottom-info {
+  width: 100%;
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__slider {
+    width: 60%;
+    margin-bottom: 8rem;
+  }
+
+  &__forecasts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1;
+  }
+}
